@@ -123,7 +123,7 @@ const init = function () {
     //get data localStorage
     const data = model.getLocalStorage("bookmarks")
     //nếu data.bookmarks không có gì thì không ren der
-    if (data.bookmarks.length > 0) {
+    if (data?.bookmarks.length > 0) {
         //lấy data.bookmarks trong localStorage lưu vào state.bookmarks
         model.state.bookmarks = data.bookmarks
         //lấy data.recipe.bookmarked trong localStorage lưu vào state.recipe.bookmarked

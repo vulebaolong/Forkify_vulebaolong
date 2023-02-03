@@ -166,6 +166,7 @@ export const setLocalStorage = function (key, data) {
 
 export const getLocalStorage = function (key) {
     let data = localStorage.getItem(key)
+
     if (!data) return
     let obj = JSON.parse(data)
     return obj
