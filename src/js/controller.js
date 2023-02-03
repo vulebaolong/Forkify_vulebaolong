@@ -151,8 +151,6 @@ const init = function () {
 
     // lắng nghe upload from recipe
     fromRepice.addEventListUpLoad(controlfromRepice)
-
-    //commit thêm
 }
 
 init()
