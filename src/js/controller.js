@@ -1,6 +1,5 @@
 import * as model from "./model.js"
 
-import View from "./View/View.js"
 import RecipeView from "./View/recipeView/recipeView.js"
 import IngredientsView from "./View/recipeView/ingredientsView.js"
 import RecipeInfoButtons from "./View/recipeView/recipeInfoButtons.js"
@@ -15,11 +14,8 @@ import PaginationView from "./View/paginationView.js"
 
 import "core-js/stable"
 import "regenerator-runtime/runtime"
-import { async } from "regenerator-runtime"
-import { renderSync } from "sass"
 
 // https://forkify-api.herokuapp.com/v2
-
 ///////////////////////////////////////
 
 const controlRecipe = async function () {

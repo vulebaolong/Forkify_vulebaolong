@@ -1,4 +1,3 @@
-//recipeInfoButtons.js
 import icons from "url:../../../img/icons.svg" //pacel 2
 import View from "../View.js"
 

@@ -1,5 +1,3 @@
-import { async } from "regenerator-runtime"
-
 import { API_KEY, PER_PAGE } from "./config.js"
 import { getJSON, log } from "./helper"
 
