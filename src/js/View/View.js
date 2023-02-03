@@ -1,5 +1,5 @@
 import icons from "url:../../img/icons.svg" //pacel 2
-import { Fraction } from "fractional"
+// import { Fraction } from "fractional"
 
 export default class View {
     renderText(data, classEl) {
@@ -55,13 +55,13 @@ export default class View {
     _ingredientsMap(recipe) {
         return recipe.ingredients
             .map((ing) => {
-                const quantity = `${new Fraction(ing.quantity ?? 0)}`
+                // const quantity = `${new Fraction(ing.quantity ?? 0)}`
                 return `
                 <li class="recipe__ingredient">
                     <svg class="recipe__icon">
                         <use href="${icons}#icon-check"></use>
                     </svg>
-                    <div class="recipe__quantity">${quantity}</div>
+                    <div class="recipe__quantity">${ing.quantity || ""}</div>
                     <div class="recipe__description">
                         <span class="recipe__unit">${ing.unit}</span>
                         ${ing.description}
