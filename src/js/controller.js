@@ -10,7 +10,6 @@ import fromRepice from "./View/recipeView/fromRepice.js"
 import SreachView from "./View/sreachView.js"
 import ResultSreach from "./View/resultSreach.js"
 import PaginationView from "./View/paginationView.js"
-// import icons from "../img/icons.svg" //pacel 2
 
 import "core-js/stable"
 import "regenerator-runtime/runtime"
